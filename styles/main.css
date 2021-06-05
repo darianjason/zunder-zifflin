@@ -22,7 +22,7 @@ header {
     top: 0;
 }
 
-#logo-image-container {
+#logo-image-wrapper {
     height: 50%;
     margin-left: 2%;
 }
@@ -43,6 +43,7 @@ img {
     color: #9AC2D5;
 }
 
+/* TODO: use js instead? */
 #dropdown-menu-button:focus, #dropdown-menu-button:active {
     transform: rotate(90deg);
 }
@@ -62,7 +63,7 @@ button {
 }
 
 #content {
-    margin: 5%;
+    padding: 2% 12.5%;
     display: flex;
     flex-flow: column wrap;
     flex-grow: 1;
@@ -72,10 +73,12 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2em 0;
 }
 
 .text-with-heading {
-    margin: 1em 0;
+    padding: 1em 0;
+    flex-shrink: 4;
 }
 
 h2 {
