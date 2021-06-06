@@ -25,16 +25,30 @@
             </a>
         </div>
         
-        <button id="dropdown-menu-button">
-            <span class="material-icons-outlined" id="menu-icon">menu</span>
-        </button>
-    </header>
-
-    <div id="dropdown-menu">
-        <nav>
-            <!-- TODO: make dropdown menu -->
+        <nav id="dropdown-menu">
+            <button id="dropdown-menu-button">
+                <span class="material-icons-outlined" id="menu-icon">menu</span>
+            </button>
+            
+            <ul id="dropdown-list">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/products.html">Products</a>
+                </li>
+                <li>
+                    <a href="./pages/company-profile.html">Company Profile</a>
+                </li>
+                <li>
+                    <a href="./pages/contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="./pages/register.html">Register</a>
+                </li>
+            </ul>
         </nav>
-    </div>
+    </header>
 
     <div id="content">
         <div class="section" id="section-1">
@@ -69,7 +83,7 @@
                 <h2>What competitors?</h2>
                 <p>
                     With prices up to 25% lower on average than our cheapest competitor, Zunder Zifflin’s products are much more affordable while maintaining top-notch quality. Bye-bye, competition! Go ahead and check their prices, we’ll wait for you to come back. Full list of advantages when buying from Zunder Zifflin instead of competitors:
-                    <ul>
+                    <ul class="content-list">
                         <li>25% lower prices!</li>
                         <li>Higher-grade materials!</li>
                         <li>Many more promotions and discounts!</li>

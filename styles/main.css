@@ -1,5 +1,4 @@
 html {
-    height: 100vh;
     background-color: #071721;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -25,7 +24,7 @@ header {
 
 #logo-image-wrapper {
     height: 50%;
-    margin-left: 2%;
+    margin-left: 1.5em;
 }
 
 img {
@@ -35,18 +34,10 @@ img {
 
 #dropdown-menu-button {
     font-size: 48px;
-    padding: 0;
-    margin-right: 2%;
-    transition: transform 0.5s;
-}
-
-#dropdown-menu-button:hover {
-    color: #9AC2D5;
-}
-
-/* TODO: use js instead? */
-#dropdown-menu-button:focus, #dropdown-menu-button:active {
-    transform: rotate(90deg);
+    padding: 19%;
+    margin-right: 2rem;
+    transition: all 0.4s;
+    z-index: 2;
 }
 
 button {
@@ -57,6 +48,33 @@ button {
     border: none;
     outline: none;
     color: #fbfded;
+}
+
+#dropdown-list {
+    position: absolute;
+    min-width: max-content;
+    right: 1.5em;
+    background-color: #9AC2D5;
+    display: none;
+}
+
+#dropdown-list a {
+    display: block;
+    padding: 1em;
+}
+
+#dropdown-list a:hover {
+    background-color: #fbfded;
+}
+
+#dropdown-menu:hover #dropdown-menu-button {
+    transform: rotate(90deg);
+    color: #9AC2D5;
+}
+
+#dropdown-menu:hover #dropdown-list {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .material-icons-outlined {
@@ -93,7 +111,7 @@ h2 {
     line-height: 1.5;
 }
 
-ul {
+.content-list {
     list-style-type: disc;
     margin-top: 1em;
     margin-left: 2.5em;
