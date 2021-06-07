@@ -34,8 +34,8 @@ img {
 
 #dropdown-menu-button {
     font-size: 48px;
-    padding: 19%;
-    margin-right: 2rem;
+    padding: 21% 0;
+    margin-right: 1.5rem;
     transition: all 0.4s;
     z-index: 2;
 }
@@ -53,7 +53,7 @@ button {
 #dropdown-list {
     position: absolute;
     min-width: max-content;
-    right: 1.5em;
+    right: 2em;
     background-color: #9AC2D5;
     display: none;
 }
