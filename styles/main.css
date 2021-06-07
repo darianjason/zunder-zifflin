@@ -55,17 +55,31 @@ button {
     position: absolute;
     min-width: max-content;
     right: 2em;
-    background-color: #9AC2D5;
+    background-color: #0b2332;
+    font-weight: bold;
     display: none;
 }
 
+a {
+    text-decoration: none;
+    color: #071721;
+}
+
 #dropdown-list a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 1em;
+    color: #fbfded;
+}
+
+#dropdown-list a span {
+    padding-right: 0.25em;
+    font-size: 24px;
 }
 
 #dropdown-list a:hover {
-    background-color: #fbfded;
+    color: #071721;
+    background-color: #9AC2D5;
 }
 
 #dropdown-menu:hover #dropdown-menu-button {
