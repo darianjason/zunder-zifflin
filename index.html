@@ -65,8 +65,22 @@
         </div>
             
         <div class="section" id="section-2">
-            <div>
-                <!-- TODO: make slider & slider buttons -->
+            <div id="slider-container">
+                <button id="previous-button" class="slider-button">
+                    <span class="material-icons-outlined">chevron_left</span>
+                </button>
+
+                <div class="slider">
+                    <div class="slider-image-wrapper">
+                        <img src="./assets/images/promo-1.jpg" alt="30% discount for new offices" class="slider-image">
+                        <img src="./assets/images/promo-1.jpg" alt="30% discount for new offices" class="slider-image">
+                        <img src="./assets/images/promo-1.jpg" alt="30% discount for new offices" class="slider-image">
+                    </div>
+                </div>
+
+                <button id="next-button" class="slider-button">
+                    <span class="material-icons-outlined">chevron_right</span>
+                </button>
             </div>
 
             <div class="text-with-heading">
@@ -105,6 +119,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

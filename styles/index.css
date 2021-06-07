@@ -1,6 +1,6 @@
 .content-image-wrapper {
     flex-basis: 16em;
-    margin-left: 5%;
+    margin-left: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,4 +9,29 @@
 
 .content-image-wrapper:hover {
     transform: scale(1.1, 1.1);
+}
+
+#slider-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider {
+    max-width: 16em;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.slider-image-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.slider-button:hover {
+    color: #9AC2D5;
+    transform: scale(1.2, 1.2);
+}
+
+.slider-button {
+    transition: all 0.2s;
 }
