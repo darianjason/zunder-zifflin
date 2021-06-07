@@ -141,8 +141,16 @@ footer {
     flex-shrink: 0;
 }
 
-#copyright {
+#company {
     margin-left: 2%;
+}
+
+#company a {
+    color: #fbfded;
+}
+
+#company a:hover {
+    color: #9AC2D5;
 }
 
 #contact {
