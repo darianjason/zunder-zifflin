@@ -97,7 +97,7 @@ a {
 }
 
 #content {
-    padding: 2% 12.5%;
+    padding: 2em 12.5%;
     display: flex;
     flex-flow: column wrap;
     flex-grow: 1;
@@ -106,7 +106,7 @@ a {
 .section {
     display: flex;
     align-items: center;
-    margin: 2em 0;
+    margin: 1.5em 0;
 }
 
 .text-with-heading {
