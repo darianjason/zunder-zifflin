@@ -148,3 +148,12 @@ footer {
 #contact {
     margin-right: 2%;
 }
+
+#contact a {
+    font-weight: bold;
+    color: #fbfded;
+}
+
+#contact a:hover {
+    color: #9AC2D5;
+}
