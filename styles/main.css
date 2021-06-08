@@ -141,12 +141,12 @@ footer {
     flex-shrink: 0;
 }
 
-#company {
-    margin-left: 2%;
+a {
+    color: #fbfded;
 }
 
-#company a {
-    color: #fbfded;
+#company {
+    margin-left: 2%;
 }
 
 #company a:hover {
@@ -159,7 +159,6 @@ footer {
 
 #contact a {
     font-weight: bold;
-    color: #fbfded;
 }
 
 #contact a:hover {
