@@ -18,7 +18,7 @@
 
 .slider {
     max-width: 16em;
-    border-radius: 4%;
+    border-radius: 8px;
     overflow: hidden;
 }
 
