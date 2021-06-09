@@ -65,3 +65,8 @@
     background-color: #0b2332;
     color: #fbfded;
 }
+
+.warning {
+    color: red;
+    padding-top: 0.5em;
+}
