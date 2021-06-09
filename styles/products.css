@@ -21,6 +21,11 @@
     align-items: center;
     border-radius: 8px;
     margin-bottom: 2em;
+    transition: transform 0.25s;
+}
+
+.product:hover {
+    transform: scale(1.05, 1.05);
 }
 
 .product-image-wrapper {
@@ -31,6 +36,11 @@
 
 .product-image {
     border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.product-image:hover {
+    transform: scale(1.05, 1.05);
 }
 
 .product-info {
