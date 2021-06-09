@@ -1,0 +1,67 @@
+#registration-form {
+    /* TODO: change width responsively */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.form-field label {
+    font-weight: bold;
+    color: #9ac2d5;
+    padding-bottom: 0.5em;
+}
+
+.form-field .radio-input, .checkbox-input {
+    display: flex;
+}
+
+.form-field .radio-input div {
+    margin: 0 0.5em;
+}
+
+.form-field .radio-input label, .checkbox-input label {
+    font-weight: normal;
+    color: #fbfded;
+}
+
+.form-field input, .form-field textarea, .form-field select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    outline-color: #9ac2d5;
+}
+
+.form-field textarea {
+    resize: none;
+}
+
+.checkbox-input label {
+    padding-left: 0.25em;
+}
+
+#register-button {
+    /* TODO: change width responsively */
+    width: 25%;
+    font-weight: bold;
+    background-color: #9ac2d5;
+    color: #071721;
+    transition: transform 0.2s;
+}
+
+#register-button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#register-button:active {
+    background-color: #0b2332;
+    color: #fbfded;
+}
