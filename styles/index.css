@@ -1,3 +1,11 @@
+.section {
+    margin: 2em 0;
+}
+
+.text-content {
+    flex-shrink: 4;
+}
+
 .content-image-wrapper {
     flex-basis: 16em;
     margin-left: 2em;
