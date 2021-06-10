@@ -1,0 +1,21 @@
+#logotype-bottom-image-wrapper {
+    width: 16em;
+    max-width: 75%;
+    align-self: center;
+}
+
+.text-content {
+    margin: 2em 0;
+}
+
+#motto {
+    color: #9ac2d5;
+    padding-bottom: 1em;
+    text-decoration: underline;
+    text-align: center;
+    transition: color 0.5s;
+}
+
+#motto:hover {
+    color: #fbfded;
+}
