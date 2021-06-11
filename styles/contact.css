@@ -37,3 +37,13 @@ address a:hover {
     padding-left: 1.75em;
     line-height: 1.5rem;
 }
+
+@media screen and (max-width: 800px) {
+    .info-heading {
+        font-size: 1.25rem;
+    }
+
+    address a:hover {
+        transform: translateX(2%) scale(1, 1);
+    }
+}
