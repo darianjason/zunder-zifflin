@@ -1,5 +1,4 @@
 #registration-form {
-    /* TODO: change width responsively */
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -49,7 +48,6 @@
 }
 
 #register-button {
-    /* TODO: change width responsively */
     width: 25%;
     font-weight: bold;
     background-color: #9ac2d5;
@@ -69,4 +67,18 @@
 .warning {
     color: red;
     padding-top: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+    #registration-form {
+        width: 100%;
+    }
+
+    #register-button {
+        width: 50%;
+    }
+
+    #register-button:hover {
+        transform: scale(1.05, 1.05);
+    }
 }
