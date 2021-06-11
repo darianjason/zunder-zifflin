@@ -2,7 +2,7 @@ html {
     height: 100vh;
     background-color: #071721;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 100%;
     color: #fbfded;
 }
 
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 5rem;
     background-color: #0b2332;
     position: sticky;
     top: 0;
@@ -24,21 +24,20 @@ header {
 }
 
 #heading h1 {
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 2em;
     display: flex;
-    max-width: 75%;
 }
 
 #heading span {
-    padding-right: 0.25em;
+    padding-right: 0.25rem;
 }
 
 #logo-image-wrapper {
     height: 50%;
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
 }
 
 img {
@@ -54,7 +53,7 @@ img {
 }
 
 button {
-    font-size: 48px;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,10 +64,11 @@ button {
 }
 
 #dropdown-list {
+    font-size: 1.5rem;
     position: absolute;
-    top: 80px;
+    top: 5rem;
     min-width: max-content;
-    right: 2em;
+    right: 2rem;
     background-color: #0b2332;
     font-weight: bold;
     display: none;
@@ -87,7 +87,7 @@ a {
 
 #dropdown-list a span {
     padding-right: 0.25em;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 #dropdown-list a:hover {
@@ -119,29 +119,29 @@ a {
 .section {
     display: flex;
     align-items: center;
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
 }
 
 h2 {
     font-family: 'Satisfy', cursive;
-    font-size: 48px;
+    font-size: 3rem;
     color: #9ac2d5;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .text-content p, .text-content li {
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 
 .content-list {
     list-style-type: disc;
     margin-top: 1em;
-    margin-left: 2.5em;
+    margin-left: 3rem;
     font-weight: bold;
 }
 
 footer {
-    height: 48px;
+    height: 3rem;
     background-color: #0b2332;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ a {
 }
 
 #company {
-    margin-left: 1.5em;
+    margin-left: 1.5rem;
 }
 
 #company a:hover {
@@ -162,7 +162,7 @@ a {
 }
 
 #contact {
-    margin-right: 1.5em;
+    margin-right: 1.5rem;
 }
 
 #contact a {

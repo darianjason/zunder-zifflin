@@ -36,7 +36,7 @@
 
 .product-image {
     border-radius: 8px;
-    transition: transform 0.2s;
+    transition: transform 0.25s;
 }
 
 .product-image:hover {
@@ -45,7 +45,7 @@
 
 .product-info {
     height: 80%;
-    margin: 0 1em;
+    margin: 0 1.5rem;
     flex-grow: 1;
     display: flex;
     flex-flow: column wrap;
@@ -54,7 +54,7 @@
 
 .product-info h3 {
     color: #9ac2d5;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 0.5em;
 }

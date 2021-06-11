@@ -9,13 +9,13 @@
 .form-field {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    margin-bottom: 3rem;
 }
 
 .form-field label {
     font-weight: bold;
     color: #9ac2d5;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5rem;
 }
 
 .form-field .radio-input, .checkbox-input {
@@ -23,7 +23,7 @@
 }
 
 .form-field .radio-input div {
-    margin: 0 0.5em;
+    margin: 0 0.5rem;
 }
 
 .form-field .radio-input label, .checkbox-input label {
@@ -33,7 +33,7 @@
 
 .form-field input, .form-field textarea, .form-field select {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 1em;
     border-radius: 8px;
     border: none;
@@ -54,16 +54,16 @@
     font-weight: bold;
     background-color: #9ac2d5;
     color: #071721;
-    transition: transform 0.2s;
+    transition: all 0.2s;
 }
 
 #register-button:hover {
+    background-color: #fbfded;
     transform: scale(1.1, 1.1);
 }
 
 #register-button:active {
-    background-color: #0b2332;
-    color: #fbfded;
+    transform: scale(1, 1);
 }
 
 .warning {
