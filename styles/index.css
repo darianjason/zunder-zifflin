@@ -43,3 +43,20 @@
 .slider-button {
     transition: all 0.2s;
 }
+
+@media screen and (max-width: 800px) {
+    #section-2 {
+        flex-direction: column-reverse;
+    }
+
+    .content-image-wrapper {
+        flex-basis: 8rem;
+        max-width: 60%;
+        margin: 2rem 0 0 0;
+    }
+
+    #slider-container {
+        margin-top: 2rem;
+        max-width: 100%;
+    }
+}
