@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+    .section {
+        flex-direction: column;
+    }
+
+    #heading h1 {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+}
