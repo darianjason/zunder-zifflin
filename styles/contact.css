@@ -1,0 +1,39 @@
+#heading {
+    padding-bottom: -1em;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.info {
+    margin-bottom: 2em;
+}
+
+address a {
+    transition: all 0.25s;
+}
+
+address a:hover {
+    transform: translateX(5%) scale(1.1, 1.1);
+    color: #9ac2d5;
+}
+
+.info-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+.info-heading span {
+    color: #9ac2d5;
+    padding-right: 0.25em;
+}
+
+.info-details {
+    padding-left: 1.75em;
+    line-height: 1.5rem;
+}
