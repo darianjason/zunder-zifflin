@@ -83,3 +83,36 @@
 .product-description::-webkit-scrollbar {
     display: none;
 }
+
+@media screen and (max-width: 800px) {
+    .product-image-wrapper {
+        width: 100%;
+        height: min-content;
+    }
+
+    .product {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .product:hover {
+        transform: none;
+    }
+
+    .product-image:hover {
+        transform: scale(1.025, 1.025);
+    }
+
+    .product-info {
+        margin: 1rem 1rem 0.25em 1rem;
+        align-self: flex-start;
+    }
+
+    .product-info h3 {
+        padding-bottom: 1em;
+    }
+
+    .product-info p {
+        padding-bottom: 0.75em;
+    }
+}
