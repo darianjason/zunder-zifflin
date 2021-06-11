@@ -62,5 +62,6 @@
 
     .slider {
         max-width: none;
+        height: 100%;
     }
 }
