@@ -28,6 +28,7 @@
     max-width: 16rem;
     border-radius: 8px;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 .slider-image-wrapper {
@@ -57,6 +58,9 @@
 
     #slider-container {
         margin-top: 2rem;
-        max-width: 100%;
+    }
+
+    .slider {
+        max-width: none;
     }
 }
