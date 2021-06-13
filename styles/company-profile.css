@@ -1,18 +1,32 @@
+.section {
+    flex-direction: column;
+}
+
 #logotype-bottom-image-wrapper {
     width: 16rem;
     max-width: 75%;
     align-self: center;
 }
 
+#logotype-bottom-image {
+    transition: transform 1s;
+}
+
+#logotype-bottom-image:hover {
+    transform: scale(1.1, 1.1) translateY(-8%);
+}
+
 .text-content {
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 #motto {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
     color: #9ac2d5;
-    padding-bottom: 1em;
     text-decoration: underline;
     text-align: center;
+    padding-bottom: 1em;
     transition: color 0.5s;
 }
 
