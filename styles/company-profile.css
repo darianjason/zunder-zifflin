@@ -1,11 +1,14 @@
 .section {
     flex-direction: column;
+    margin-bottom: 4rem;
+    padding-bottom: 0;
 }
 
 #logotype-bottom-image-wrapper {
     width: 16rem;
     max-width: 75%;
     align-self: center;
+    padding-bottom: 2rem;
 }
 
 #logotype-bottom-image {
@@ -17,19 +20,110 @@
 }
 
 .text-content {
-    margin: 2rem 0;
+    align-self: flex-start;
 }
 
 #motto {
-    font-family: 'Satisfy', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
     color: #9ac2d5;
+    text-transform: uppercase;
     text-decoration: underline;
-    text-align: center;
-    padding-bottom: 1em;
+    text-underline-offset: 0.5em;
+    line-height: 2em;
+    padding-bottom: 2rem;
     transition: color 0.5s;
 }
 
 #motto:hover {
     color: #fbfded;
+}
+
+.section h2 {
+    padding-bottom: 2.5rem;
+}
+
+.profiles {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile {
+    width: 25%;
+    transition: transform 0.4s;
+}
+
+.profile:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.profile-picture {
+    border-radius: 100%;
+}
+
+.profile-info {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    color: #9ac2d5;
+    padding-bottom: 0.75rem;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.quote {
+    padding-top: 0.25rem;
+}
+
+.profile-socials {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+}
+
+.profile-socials span {
+    color: #9ac2d5;
+    transition: color 0.4s;
+}
+
+.profile-socials span:hover {
+    color: #fbfded;
+}
+
+@media screen and (max-width: 800px) {
+    .section h2 {
+        padding-bottom: 1rem;
+    }
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 50%;
+        margin: 2rem 0;
+    }
+
+    .profile:hover {
+        transform: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .profile {
+        width: 16rem;
+    }
 }
