@@ -61,6 +61,7 @@ function validateForm() {
 
     validateName() ? validated++ : appendWarningToField("name");
     validateEmail() ? validated++ : appendWarningToField("email");
+    validatePassword() ? validated++ : appendWarningToField("password");
     validateGender() ? validated++ : appendWarningToField("gender");
     validateAddress() ? validated++ : appendWarningToField("address");
     validateCity() ? validated++ : appendWarningToField("city");
@@ -117,6 +118,22 @@ function validateEmail() {
 
     if (!(email.includes('@') && email.includes('.'))) {
         warning.textContent = "Email must have valid format.";
+        return false;
+    }
+
+    return true;
+}
+
+function validatePassword() {
+    let password = getValueById("password");
+
+    if(password === '') {
+        warning.textContent = "Please enter your password.";
+        return false;
+    }
+
+    if(password.length < 8) {
+        warning.textContent = "Password must be at least 8 characters long."
         return false;
     }
 
