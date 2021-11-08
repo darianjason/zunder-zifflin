@@ -11,7 +11,7 @@ function register() {
     if (male.checked) {
         gender = getValueById("male");
     }
-    else if (female.checked){
+    else if (female.checked) {
         gender = getValueById("female");
     }
 
@@ -96,10 +96,12 @@ function validateName() {
         warning.textContent = "Please enter your name.";
         return false;
     }
+
     if (!isAlphabetical(name)) {
         warning.textContent = "Name must be alphabetical.";
         return false;
     }
+
     if (!hasValidSpace(name)) {
         warning.textContent = "Name is invalid.";
         return false;
@@ -133,7 +135,7 @@ function validatePassword() {
     }
 
     if(password.length < 8) {
-        warning.textContent = "Password must be at least 8 characters long."
+        warning.textContent = "Password must be at least 8 characters long.";
         return false;
     }
 
@@ -159,6 +161,7 @@ function validateAddress() {
         warning.textContent = "Please enter your address.";
         return false;
     }
+
     if (address.split('\n').length < 3) {
         warning.textContent = "Address must have at least 3 lines.";
         return false;
@@ -174,6 +177,7 @@ function validateCity() {
         warning.textContent = "Please enter your city.";
         return false;
     }
+    
     if (!hasValidSpace(city)) {
         warning.textContent = "City is invalid.";
         return false;
